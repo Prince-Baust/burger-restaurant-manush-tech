@@ -1,0 +1,32 @@
+[
+  {
+    "key": "1",
+    "name": "Bun",
+    "img": "",
+    "price": 5
+  },
+  {
+    "key": "2",
+    "name": "Salad",
+    "img": "",
+    "price": 5
+  },
+  {
+    "key": "3",
+    "name": "Cheese",
+    "img": "",
+    "price": 10
+  },
+  {
+    "key": "4",
+    "name": "Beef",
+    "img": "",
+    "price": 20
+  },
+  {
+    "key": "5",
+    "name": "Ketchup",
+    "img": "",
+    "price": 5
+  }
+]

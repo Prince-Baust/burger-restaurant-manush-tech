@@ -45,9 +45,16 @@
     border-radius: 5px;
     text-transform: uppercase;
     border: none;
+    color: #EEEEEE;
     margin-top: 1em;
     padding: 0.8em;
     font-size: 1em;
     font-weight: 100;
     letter-spacing: 3px;
+}
+
+.formSubmit[type="submit"]:hover {
+    background: #06e8f5;
+    color: #222831;
+    cursor: pointer;
 }

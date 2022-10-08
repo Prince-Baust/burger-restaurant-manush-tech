@@ -1,21 +1,26 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from '../styles/components/customerForm.module.css';
 import { useForm } from 'react-hook-form';
 
 const CustomerForm = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    mode: 'onChange',
+  });
 
-  console.log(errors);
+  const onSubmit = (data) => {
+    console.log(data);
+    navigate('/burger');
+  };
 
   return (
     <div className={styles.container}>
-      <form
-        className={styles.form}
-        onSubmit={handleSubmit((data) => console.log(data))}>
+      <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
         <label className={styles.formLabel}>Full Name</label>
         <input
           className={styles.formInput}
@@ -48,7 +53,7 @@ const CustomerForm = () => {
               message: 'Number is too short',
             },
             maxLength: {
-              value: 13,
+              value: 14,
               message: 'Number is too long',
             },
           })}
