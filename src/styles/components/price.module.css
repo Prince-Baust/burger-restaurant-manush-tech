@@ -1,0 +1,21 @@
+.container {
+    width: 30%;
+}
+
+.submitBtn {
+    background: #00ADB5;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: #EEEEEE;
+    margin-top: 1em;
+    padding: 0.8em;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+.submitBtn:hover {
+    background: #06e8f5;
+    color: #222831;
+    cursor: pointer;
+}

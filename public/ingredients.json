@@ -2,31 +2,31 @@
   {
     "key": "1",
     "name": "Bun",
-    "img": "",
+    "img": "https://via.placeholder.com/130.png?text=Bun",
     "price": 5
   },
   {
     "key": "2",
     "name": "Salad",
-    "img": "",
+    "img": "https://via.placeholder.com/130.png?text=Salad",
     "price": 5
   },
   {
     "key": "3",
     "name": "Cheese",
-    "img": "",
+    "img": "https://via.placeholder.com/130.png?text=Cheese",
     "price": 10
   },
   {
     "key": "4",
     "name": "Beef",
-    "img": "",
+    "img": "https://via.placeholder.com/130.png?text=Beef",
     "price": 20
   },
   {
     "key": "5",
     "name": "Ketchup",
-    "img": "",
+    "img": "https://via.placeholder.com/130.png?text=Ketchup",
     "price": 5
   }
 ]
