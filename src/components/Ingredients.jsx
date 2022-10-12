@@ -14,7 +14,7 @@ const Ingredients = () => {
     <div className={styles.container}>
       <h2>List of ingredients here</h2>
       {ingredients.map((ingredient) => (
-        <Ingredient key={ingredient.key} ingredient={ingredient} />
+        <Ingredient key={ingredient.id} ingredient={ingredient} />
       ))}
     </div>
   );

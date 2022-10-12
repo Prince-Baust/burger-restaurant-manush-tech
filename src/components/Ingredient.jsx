@@ -5,7 +5,7 @@ const Ingredient = ({ ingredient }) => {
   const { name, price, img } = ingredient;
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.textLeft}>
         <h3>Item: {name}</h3>
         <h4>Price: {price} tk</h4>
       </div>
