@@ -1,6 +1,6 @@
-/*TODO: Styles break after DND implemented. Fix it*/
 .container {
     width: 100%;
+    height: 100vh;
     background-color: #393E46;
     color: #EEEEEE;
 
@@ -10,12 +10,4 @@
 
     padding: 2rem 3rem;
     box-sizing: border-box;
-}
-
-.mainSection {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }

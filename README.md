@@ -1,47 +1,81 @@
-# React Base Project
+<div align="center">
+  <h1>Burger Restaurant (React)</h1>
+  <p>React Beautiful DND</p>
 
-This a sample react project we regularly use at Manush Technologies.
+Live Site Link: [https://burger-restaurant-manush-tech.netlify.app/](https://burger-restaurant-manush-tech.netlify.app/)
+</div>
+<br />
 
-## Usage
+### Screenshots
 
-    Starting the project
+<div align="center"> 
+<p>Header</p>
+<img width="600" height="500" src="screenshot/img1.png" alt="screenshot"/>
+
+
+</div>
+
+
+<!-- TechStack -->
+### Tech Stack
+
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>React</li>
+  </ul>
+
+<!-- Libraries -->
+### Libraries
+
+  <ul>
+    <li>react-beautiful-dnd</li>
+    <li>eslint</li>
+  </ul>
+
+
+<!-- Getting Started -->
+## Getting Started
+
+<!-- Prerequisites -->
+### Prerequisites
+
+This project uses Yarn as package manager. So please install yarn globally to run the app
+
+
+<!-- Run Locally -->
+### Run Locally
+
+Clone the project
 
 ```bash
-    yarn start:dev # start project in dev mode
-    yarn start:stage # start project in stage mode
+gh repo clone Prince-Baust/burger-restaurant-manush-tech
 ```
 
-    Build the project
+Go to the project directory
 
 ```bash
-    yarn build:prod # build project in production mode
-    yarn build:stage # build project in stage mode
+  cd burger-restaurant-manush-tech
 ```
 
-## Folder Structure
+Install dependencies
 
-    1. pages --> contains all page component
-    2. components --> contains all components
-    3. styles --> contains all styles/css
-    4. contants --> contains all const values
-    5. layout --> contains app layout for pages
-    6. routes --> contains app routes
-    7. services --> contains axios and api call configs
-    8. utils --> contains all utility functions which may be reused
+```bash
+  yarn add
+```
 
-    .env.* contains all env variable for different mode
+Start the server
+```bash
+  yarn run start:dev
+```
 
-## Notes
+<!-- Information -->
+## Important Information
+* React Beautiful DND library is used for implementing Drag n Drop
+* <React.StrictMode> shows warning and React Beautiful DND doesn't behave appropriately in development mode. But it works fine in production. So we commented out <React.StrictMode>
 
-    1. Eslint and prettier is installed to make sure code quality is maintained.
+<!-- Contact -->
+## Contact
 
-    2. if you are on windows machine and linter gives error
-    change -->
-        'prettier/prettier': 'error',
-        'linebreak-style': ['error', 'unix'],
-    to --->
-        'prettier/prettier': 0,
-        'linebreak-style': 0,
-
-    3. if you encounter error when comitting to github --> most probable reason is
-       that your code does not meet our standards. Please fix the linting errors in that case.
+MD. Maruf Al Hossain Prince <br />
+[LinkedIn Profile](https://www.linkedin.com/in/maruf-prince) <br /> write2maruf@icloud.com
